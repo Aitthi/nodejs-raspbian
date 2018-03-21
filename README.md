@@ -3,7 +3,7 @@ Install Nodejs on Raspbian Server for linux ARM6 or ARM7 like Raspberry Pi or Or
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/Aitthi/nodejs-raspbian/master/install.sh;
+wget -O - https://raw.githubusercontent.com/Aitthi/nodejs-raspbian/master/install.sh
 nano ./install.sh # Change Node Version
 bash ./install.sh
 exit
