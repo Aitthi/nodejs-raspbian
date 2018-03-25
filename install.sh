@@ -28,3 +28,6 @@ sudo ln -s /opt/nodejs/bin/npm /usr/sbin/npm; sudo ln -s /opt/nodejs/bin/npm /sb
 sudo ln -s /opt/nodejs/bin/npm /usr/local/bin/npm; 
 rm -R -f /root/$TEMP_FILE/;
 
+echo 'export PATH=$PATH:/opt/nodejs/bin' >> ~/.bashrc;
+
+source ~/.bashrc;
