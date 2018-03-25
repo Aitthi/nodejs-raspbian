@@ -27,6 +27,4 @@ sudo ln -s /opt/nodejs/bin/npm /usr/bin/npm;
 sudo ln -s /opt/nodejs/bin/npm /usr/sbin/npm; sudo ln -s /opt/nodejs/bin/npm /sbin/npm; 
 sudo ln -s /opt/nodejs/bin/npm /usr/local/bin/npm; 
 rm -R -f /root/$TEMP_FILE/;
-prefix=$(npm get prefix);
-
 
